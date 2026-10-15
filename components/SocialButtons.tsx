@@ -43,7 +43,7 @@ export default function SocialButtons({ callbackURL }: { callbackURL: string }) 
       const { error } = await authClient.signIn.social({ provider, callbackURL });
       if (error) {
         console.error(error);
-        toast.error(error.message || error.statusText || "সাইন ইন করা যায়নি, আবার চেষ্টা করুন");
+        toast.error(error.message || error.statusText || "সাইন ইন করা যায়নি, আবার চেষ্টা করুন|");
       }
     } catch (error) {
       console.error(error);

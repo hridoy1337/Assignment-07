@@ -9,7 +9,7 @@ async function handle(method: "GET" | "POST", request: Request) {
     const reason = error instanceof Error ? error.message : "";
     const message =
       process.env.NODE_ENV === "production"
-        ? "সার্ভারে সমস্যা হয়েছে, ডাটাবেস যাচাই করুন"
+        ? "সার্ভারে সমস্যা হয়েছে, ডাটাবেস যাচাই করুন|"
         : `সার্ভারে সমস্যা হয়েছে: ${reason}`;
     return Response.json({ message }, { status: 500 });
   }
