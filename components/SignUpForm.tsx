@@ -69,6 +69,7 @@ export default function SignUpForm({ callbackURL }: { callbackURL: string }) {
             onChange={(e) => setName(e.target.value)}
             className={inputClass}
             autoComplete="name"
+			placeholder="যেমন: রহিম উদ্দিন"
           />
         </label>
         <label className="flex flex-col gap-1">
@@ -79,6 +80,7 @@ export default function SignUpForm({ callbackURL }: { callbackURL: string }) {
             onChange={(e) => setEmail(e.target.value)}
             className={inputClass}
             autoComplete="email"
+			placeholder="you@example.com"
           />
         </label>
         <label className="flex flex-col gap-1">
@@ -89,6 +91,7 @@ export default function SignUpForm({ callbackURL }: { callbackURL: string }) {
             onChange={(e) => setPassword(e.target.value)}
             className={inputClass}
             autoComplete="new-password"
+			placeholder="কমপক্ষে ৮ অক্ষর"
           />
         </label>
         <label className="flex flex-col gap-1">
@@ -99,6 +102,7 @@ export default function SignUpForm({ callbackURL }: { callbackURL: string }) {
             onChange={(e) => setConfirmPassword(e.target.value)}
             className={inputClass}
             autoComplete="new-password"
+			placeholder="আবার লিখুন"
           />
         </label>
         <button
