@@ -47,7 +47,7 @@ export default function SocialButtons({ callbackURL }: { callbackURL: string }) 
       }
     } catch (error) {
       console.error(error);
-      toast.error("সার্ভারের সাথে সংযোগ করা যায়নি");
+      toast.error("সার্ভারের সাথে সংযোগ করা যায়নি|");
     }
   }
 

@@ -45,7 +45,7 @@ export default function UpdateProfileForm({ currentName }: { currentName: string
         />
       </label>
       <button type="submit" disabled={loading} className="btn btn-primary w-full">
-        {loading ? <span className="loading loading-spinner loading-sm"></span> : "তথ্য আপডেট করুন"}
+        {loading ? <span className="loading loading-spinner loading-sm"></span> : "নাম হালনাগাদ করুন"}
       </button>
     </form>
   );

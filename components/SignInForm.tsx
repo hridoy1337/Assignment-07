@@ -67,6 +67,7 @@ export default function SignInForm({ callbackURL, protectedRoute }: Props) {
             onChange={(e) => setEmail(e.target.value)}
             className={inputClass}
             autoComplete="email"
+			placeholder="you@example.com"
           />
         </label>
         <label className="flex flex-col gap-1">
@@ -77,6 +78,7 @@ export default function SignInForm({ callbackURL, protectedRoute }: Props) {
             onChange={(e) => setPassword(e.target.value)}
             className={inputClass}
             autoComplete="current-password"
+			placeholder="কমপক্ষে ৮ অক্ষর"
           />
         </label>
         <button
