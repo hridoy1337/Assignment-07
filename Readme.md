@@ -56,6 +56,6 @@ Product and category data comes from this API:
 
 <div align="center">
 
-Made with ❤️
+Made with ❤️ Tanvir Hasan
 
 </div>
